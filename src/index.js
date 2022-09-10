@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
 import App from "./App";
+import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 //ReactDOM.createRoot: 브라우저에 있는 실제 돔을 변수에 할당

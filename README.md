@@ -33,3 +33,10 @@ return (
 
 엘리먼트에 class 적용 시 className 으로 설정하여 사용  
 JSX 내부 주석 {/_ 주석 내용 공간 _/}
+
+useCallback, useMemo, React.memo: 최적화에 사용하며 랜더링이 정말 불필요한지 확인 후 적용
+
+useReducer vs useState
+
+useState: 컴포넌트에서 관리하는 값이 하나며 값 타입이 단순한 숫자, 문자열, boolean 인 경우
+useReducer: 컴포넌트에서 관리하는 값이 여러개며 복잡한 경우
