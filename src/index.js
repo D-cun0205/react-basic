@@ -10,9 +10,9 @@ import reportWebVitals from "./reportWebVitals";
 //실제 돔 변수.render(root.render): 돔에 랜더링
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <App />
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 
 reportWebVitals();
