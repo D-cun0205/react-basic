@@ -1,35 +1,8 @@
 import React from 'react';
-// import { createGlobalStyle } from 'styled-components';
-// import TodoCreate from './components/TodoCreate';
-// import TodoHead from './components/TodoHead';
-// import TodoList from './components/TodoList';
-// import TodoTemplate from './components/TodoTemplate';
-// import { TodoProvider } from './TodoProvider';
+import CounterContainer from './containers/CounterContainer';
 
-import Users from './api/Users';
-import { UsersProvider } from './UsersContext';
-
-// const GlobalStyle = createGlobalStyle`
-//   body {
-//     background: #e9ecef;
-//   }
-// `;
-
-function App() {
-  return (
-    // <TodoProvider>
-    //   <GlobalStyle />
-    //   <TodoTemplate>
-    //     <TodoHead />
-    //     <TodoList />
-    //     <TodoCreate />
-    //   </TodoTemplate>
-    // </TodoProvider>
-
-    <UsersProvider>
-      <Users />
-    </UsersProvider>
-  );
-}
+const App = () => {
+  return <CounterContainer />;
+};
 
 export default App;
